@@ -62,6 +62,8 @@ if (navigator.mediaDevices.getUserMedia) {
 
       clipContainer.classList.add('clip');
       audio.setAttribute('controls', '');
+      audio.setAttribute('autoplay', '');
+      audio.setAttribute('loop', '');
       deleteButton.textContent = 'Delete';
       deleteButton.className = 'delete';
 
